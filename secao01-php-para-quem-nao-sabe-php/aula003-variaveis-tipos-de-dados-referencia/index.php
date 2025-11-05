@@ -1,6 +1,9 @@
 <?php
 
-// Tipo de dados:
+/**
+ * - Tipo de dados:
+ */
+
 // string: Tudo que pode ser colocado entre 'aspas simples' ou "aspas duplas".
 echo gettype('Erick Ferreira');
 echo "\n\n";
@@ -37,4 +40,39 @@ echo gettype(null);
 echo "\n\n";
 
 
-// Variáveis:
+/**
+ * - Variáveis:
+ * 
+ *      Se inicia uma variáveis em PHP com um '$' e em seguida com letras ou underline.
+ *      Nomes de variáveis precisam referênciar o valor da mesma.
+ *      O PHP é case sensitive na criação das variáveis.
+ *      Para nomes compostos podemos utilizar dois padrões: camelCase ou snake_case;
+ * 
+ *      Podemos passar valores, de variável já criadas, por 'referência' para novas variáveis.
+ * 
+ *          $name = "Erick";
+ *          $myName = &$name;
+ */
+
+$name = "Erick";
+echo "$name - " . gettype($name);
+echo "\n";
+
+$idade = 39;
+echo "$idade - " . gettype($idade);
+echo "\n";
+
+$fullName = "Erick Ferreira";
+echo $fullName;
+echo "\n";
+
+$current_age = 38;
+echo "$current_age anos";
+echo "\n\n";
+
+$myName = &$name; // Passando valor por referência.
+$name = "Thiago";
+echo $name;
+echo "\n";
+echo $myName;
+echo "\n\n";
