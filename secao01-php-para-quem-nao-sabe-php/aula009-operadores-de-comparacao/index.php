@@ -18,29 +18,29 @@
 
 
 // Menor que:
-echo 30 < 50;
+var_dump(30 < 50);
 echo "\n";
 
 // Maior que:
-echo 30 > 50;
+var_dump(30 > 50);
 echo "\n";
 
 // Menor ou igual:
-echo 30 <= 50;
+var_dump(30 <= 50);
 echo "\n";
 
 // Maior ou igual:
-echo 30 >= 50;
+var_dump(30 >= 50);
 echo "\n";
 
 // Diferente:
-echo "50" != 50;
+var_dump("50" != 50);
 echo "\n";
-echo "50" !== 50;
+var_dump("50" !== 50);
 echo "\n";
 
 // Igual:
-echo "50" == 50;
+var_dump("50" == 50);
 echo "\n";
-echo "50" === 50;
+var_dump("50" === 50);
 echo "\n";
