@@ -9,6 +9,10 @@
  *          && (and): E lógico.
  *          || (or): OU lógico.
  *          ! (not): NÃO lógico.
+ * 
+ * - Ordem de precedência do operadores:
+ * 
+ *      https://www.php.net/manual/pt_BR/language.operators.precedence.php
  */
 
 
