@@ -1,0 +1,21 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Consolas",
+    "explorer.compactFolders": false,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "php": "clear ; php",
+        "javascript": "clear ; node",
+        "typescript": "clear ; ts-node"
+    },
+	"liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Dark Modern"
+}
