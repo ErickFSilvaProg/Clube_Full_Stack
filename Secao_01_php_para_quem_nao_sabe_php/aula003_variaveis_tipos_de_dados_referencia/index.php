@@ -22,9 +22,11 @@ require_once 'programa.php';
 <body>
     <div class="container">
     
-        <h1>
-            Variáveis em PHP
-        </h1>
+        <header>
+            <h1>
+                Variáveis em PHP
+            </h1>
+        </header>
 
         <p>
             Ano atual: <?= $anoAtual ?>
@@ -32,6 +34,10 @@ require_once 'programa.php';
         <p>
             Estamos em 2026? <br>
             <b><?= $resultado ? "Sim, estamos em $anoAtual" : "Não, estamos em $anoAtual" ?></b>
+        </p>
+        <p>
+            Quem está confirmou presença:<br>
+            <?= $nome ?>
         </p>
     
     </div>
