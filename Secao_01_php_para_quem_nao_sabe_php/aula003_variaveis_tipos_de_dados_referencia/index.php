@@ -30,7 +30,8 @@ require_once 'programa.php';
             Ano atual: <?= $anoAtual ?>
         </p>
         <p>
-            Estamos em 2026? <?= $resultado ?>
+            Estamos em 2026? <br>
+            <b><?= $resultado ? "Sim, estamos em $anoAtual" : "Não, estamos em $anoAtual" ?></b>
         </p>
     
     </div>

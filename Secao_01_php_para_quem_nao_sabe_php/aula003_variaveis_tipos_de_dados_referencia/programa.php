@@ -17,8 +17,6 @@ $negar = false;
 
 
 /* Programa */
-
-$anoAtual = date('Y');
 $resultado;
 
 if ($anoAtual == 2026) {

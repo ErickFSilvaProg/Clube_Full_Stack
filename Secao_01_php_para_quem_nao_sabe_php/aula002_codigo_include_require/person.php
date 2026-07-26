@@ -1,4 +1,4 @@
 <?php
 
 $name = 'Erick';
-echo "{$name}\n";
+// echo "{$name}\n";
