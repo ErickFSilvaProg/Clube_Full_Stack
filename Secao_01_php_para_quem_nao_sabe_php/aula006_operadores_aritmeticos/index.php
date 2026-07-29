@@ -24,24 +24,24 @@ $number3 = 5.5;
 
 // Exponenciação:
 echo $number1 ** 2;
-echo "<br>\n";
+echo "\n";
 
 // Multiplicação:
 echo $number1 * $number2;
-echo "<br>\n";
+echo "\n";
 
 // Divisão:
 echo $number2 / $number3;
-echo "<br>\n";
+echo "\n";
 
 // Módulo:
 echo $number1 % $number3;
-echo "<br>\n";
+echo "\n";
 
 // Adição:
 echo $number2 + $number1;
-echo "<br>\n";
+echo "\n";
 
 // Subtração:
 echo $number3 - $number1;
-echo "<br>\n";
+echo "\n";
