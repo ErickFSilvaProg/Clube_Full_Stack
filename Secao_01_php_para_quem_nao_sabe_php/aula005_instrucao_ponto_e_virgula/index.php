@@ -2,7 +2,7 @@
 
 $name = "Alexandre";
 
-if ($name = "Alexandre") {
+if ($name === "Alexandre") {
     echo "É alexandre";
 }
 echo "\n<br>";
