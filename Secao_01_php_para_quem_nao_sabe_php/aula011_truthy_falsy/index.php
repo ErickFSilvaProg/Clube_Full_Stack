@@ -10,7 +10,7 @@
                         0       → integer
                         0.0     → float
                         "0"     → string
-                        " "     → empty string
+                        ""      → empty string
                         array() → empty array
         
 
