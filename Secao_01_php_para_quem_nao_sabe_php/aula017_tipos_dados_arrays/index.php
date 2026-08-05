@@ -19,6 +19,8 @@
         
             array_push: Adiciona item no fim.
             array_pop: Remove item do fim.
+            
+            array_unshift: Adicionar item no início.
             array_shift: Remove item do início.
 
 
