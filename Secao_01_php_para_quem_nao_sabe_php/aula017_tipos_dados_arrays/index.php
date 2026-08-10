@@ -64,7 +64,7 @@ $data[count($data)] = 'Marte';
 print_r($data);
 echo "\n";
 
-// Adicionar um elemento no array sempre na após seu último elemento existente.
+// Adicionar um elemento no array sempre após seu último elemento existente.
 array_push($data, 'Último elemento');
 
 print_r($data);
