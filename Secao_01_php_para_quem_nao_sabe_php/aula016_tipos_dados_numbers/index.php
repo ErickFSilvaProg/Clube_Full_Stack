@@ -37,6 +37,7 @@ echo "\n";
 // — Double:
 $number2 = 34;
 $number3 = '44'; // O PHP entenderá que é um numérico.
+
 // Função que verifica se é um número.
 if (is_numeric($number2) && is_numeric($number3)) {
     echo 'é numerico';
