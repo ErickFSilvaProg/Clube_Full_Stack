@@ -1,6 +1,6 @@
 <?php
 
-require_once 'programa.php';
+require_once 'program.php';
 
 ?>
 
