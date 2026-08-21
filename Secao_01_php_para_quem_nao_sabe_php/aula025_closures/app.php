@@ -30,4 +30,5 @@ function profissao($area) {
 
 }
 
-var_dump(profissao("Programador"));
+echo profissao("Programador");
+echo "\n";
