@@ -2,16 +2,20 @@
 
 // O "switch" verifica o valor da variável:
 
-$name = 'Carlos';
+$saldacao = 'Olá';
+$name = 'Erick';
+$desconhecido = 'Quem é você?';
 
 switch ($name) {
     case 'Alexandre':
-        echo "Olá, Alexandre";
+        echo "{$saldacao}, {$name}";
         break;
+
     case 'Erick':
-        echo "Olá, Erick";
+        echo $saldacao . ', ' . $name;
         break;
+
     default:
-        echo "Quem é você?";
+        echo $desconhecido;
         break;
 }
