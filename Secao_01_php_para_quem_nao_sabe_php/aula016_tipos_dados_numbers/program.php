@@ -1,7 +1,7 @@
 <?php
 
 /*
-    — Existem dosi tipod de valores numéricos no PHP:
+    — Existem dois tipos de valores numéricos no PHP:
 
         → Valores inteiros: 
             ↪ integer: 34, 45
