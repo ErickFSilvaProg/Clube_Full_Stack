@@ -1,11 +1,18 @@
 <?php
 
 $lista = [];
-
-$backend = function($linguagem) use ($lista) {
+$backend = function($linguagem) use (&$lista) {
 
     array_push($lista, $linguagem);
 };
 
+
 $backend('PHP');
-print_r($lista);
+$backend('Javascript');
+$backend('HTML5');
+$backend('CSS3');
+
+
+foreach ($lista as $listaBackend) {
+    echo "{$listaBackend}\n";
+}
