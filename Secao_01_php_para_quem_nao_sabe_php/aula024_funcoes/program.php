@@ -1,15 +1,21 @@
 <?php
 
-function connection() {
-    $pdo = new PDO('mysql:host-localhost;dbname=books'.'root','');
-    return $pdo;
+$lista = [];
+$mensagem = 'Item adicionado!';
+
+function adicionarCarros($lista, $novoCarro) {
+    array_push($lista, $novoCarro);
+    return $lista;
 }
 
-function getData($table) {
-    $connection = connection();
-    $query = $connection->query("select * from {$table}");
-    $query->execute();
-    return $query->fetchAll();
+$lista = adicionarCarros($lista, 'Gol');
+$lista = adicionarCarros($lista, 'Onix');
+$lista = adicionarCarros($lista, 'Mobi');
+
+echo $mensagem . "\n";
+
+foreach ($lista as $carro) {
+    echo $carro . "\n";
 }
 
-var_dump(getData('comments'));
+echo "\n";

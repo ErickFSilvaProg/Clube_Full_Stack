@@ -2,33 +2,19 @@
 
 // Toda variável que recebe uma função anônima torna-se um "objeto do tipo closure".
 
-$person = function($name) {
-    // Objeto do tipo "clasure".
-    return $name;
+$lista = [];
+$backend = function($linguagem) use (&$lista) {
+
+    array_push($lista, $linguagem);
 };
 
-var_dump($person("Erick"));
-echo "\n";
+
+$backend('PHP');
+$backend('Javascript');
+$backend('HTML5');
+$backend('CSS3');
 
 
-function profissao($area) {
-
-    if ($area == "Programador") {
-
-        $person = function($linguagem) use ($area) {
-
-            return "{$area} {$linguagem}";
-        };
-
-        return $person("PHP");
-
-    }
-    else {
-
-        return "Outra profissão";
-    }
-
+foreach ($lista as $listaBackend) {
+    echo "{$listaBackend}\n";
 }
-
-echo profissao("Programador");
-echo "\n";

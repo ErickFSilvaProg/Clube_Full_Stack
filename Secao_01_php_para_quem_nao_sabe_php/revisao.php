@@ -1,18 +1,13 @@
 <?php
 
-$lista = [];
-$backend = function($linguagem) use (&$lista) {
-
-    array_push($lista, $linguagem);
+$baseLivros = [];
+$adicionaLivro = function($livro) use (&$baseLivros) {
+    array_push($baseLivros, $livro);
 };
 
+$adicionaLivro('Livro 1');
+$adicionaLivro('Livro 2');
 
-$backend('PHP');
-$backend('Javascript');
-$backend('HTML5');
-$backend('CSS3');
-
-
-foreach ($lista as $listaBackend) {
-    echo "{$listaBackend}\n";
+foreach($baseLivros as $livro) {
+    echo "$livro\n";
 }
