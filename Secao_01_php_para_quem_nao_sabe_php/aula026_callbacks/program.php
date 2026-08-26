@@ -10,7 +10,7 @@
 
         3. call_user_func (Espera um callback como parâmetro).
             ↪ Chama uma função e seu parâmetro.
-            ↪ Chama o primeiro parâmetro como array, caso ele seja um objeto com método estático, ou não e queira usar um método dele.
+            ↪ Chama o primeiro parâmetro como array, caso ele seja um objeto, com método estático ou não e queira usar um método dele.
 
 */
 

@@ -1,13 +1,14 @@
 <?php
 
-$baseLivros = [];
-$adicionaLivro = function($livro) use (&$baseLivros) {
-    array_push($baseLivros, $livro);
-};
+$listaCidade = [];
 
-$adicionaLivro('Livro 1');
-$adicionaLivro('Livro 2');
-
-foreach($baseLivros as $livro) {
-    echo "$livro\n";
+function addCidade($listaCidade, $cidade) {
+    array_push($listaCidade, $cidade);
+    return $listaCidade;
 }
+
+$listaCidade = call_user_func('addCidade', $listaCidade, 'Garanhuns');
+$listaCidade = call_user_func('addCidade', $listaCidade, 'Caruaru');
+$listaCidade = call_user_func('addCidade', $listaCidade, 'Recife');
+
+print_r($listaCidade);
