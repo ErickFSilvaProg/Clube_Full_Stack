@@ -9,7 +9,7 @@
         2. Verificar se é callback com is_callable.
 
         3. call_user_func (Espera um callback como parâmetro).
-            ↪ Chama uma função e seu parâmetro.
+            ↪ Chama uma função e seu(s) parâmetro(s).
             ↪ Chama o primeiro parâmetro como array, caso ele seja um objeto, com método estático ou não e queira usar um método dele.
 
 */
